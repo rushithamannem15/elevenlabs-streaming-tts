@@ -9,17 +9,22 @@
         ↓ 
     FFmpeg Playback
 
-# ElevenLabs Streaming Text-to-Speech
+## ElevenLabs Streaming Text-to-Speech
 
-This project demonstrates real-time speech generation using the ElevenLabs Text-to-Speech API with Python.
+This project demonstrates scalable real-time text-to-speech generation using the ElevenLabs API and Python.
+
+The application supports long-form text generation by intelligently splitting large text into sentence-aware chunks, generating audio for each chunk independently, merging all generated audio files into a single final output, and playing the final audio using FFmpeg.
 
 ## Features
-
-- Real-time streaming request handling
-- Chunk-based audio processing
-- ElevenLabs REST API integration
-- MP3 audio playback using FFmpeg
-- Environment variable support with `.env`
+Real-time streaming request handling
+Sentence-aware text chunking
+Long-text scalability support
+Multiple audio chunk generation
+Automatic MP3 merging using FFmpeg
+Final audio playback using ffplay
+Environment variable support using .env
+Error handling for failed requests
+Clean and scalable project structure
 
 ## Tech Stack 
 

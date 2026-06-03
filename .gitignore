@@ -1,4 +1,6 @@
 venv/
 .env
 __pycache__/
-output.mp3
+audio_chunks/ 
+final_output.mp3
+files.txt
